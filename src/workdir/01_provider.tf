@@ -2,8 +2,8 @@
 # This requires a user in the target account with sufficient permissions.
 provider "aws" {
     region  = "eu-central-1"
-    access_key = "AKIAQQPIPFXDH4U26S6C"
-    secret_key = "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"
+    access_key = "" # TODO add access key from slides!
+    secret_key = "" # TODO add secret key from slides!
 }
 
 terraform {
