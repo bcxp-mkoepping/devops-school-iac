@@ -1,10 +1,7 @@
 # Define AWS as our provider
-# This requires a user in the target account with sufficient permissions.
-provider "aws" {
-    region  = "eu-central-1"
-    access_key = "" # TODO add access key from slides!
-    secret_key = "" # TODO add secret key from slides!
-}
+# This also defines the possibilities for authentication.
+# In our case, credentials will be set through the environment variables shown in the slides.
+provider "aws" { }
 
 terraform {
     backend "s3" {
